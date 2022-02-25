@@ -1,0 +1,88 @@
+.titulo {
+    text-align: center;
+}
+
+#mifoto {
+    height: 400px;
+    width: 319px; 
+    padding-left: 200px;
+    
+}
+
+#mivideo {
+    height: 400px;
+    width: 319px; 
+    padding-left: 250px;
+    
+}
+
+p {
+    text-align: center;
+}
+
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: rgba(5, 151, 132, 0.801);
+    clear: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;/*desactiva viñetas*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Especifica qué sucede si el contenido
+    del cuadro de un elemento se desborda */
+    background-color: rgb(7, 192, 167);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+    background-color: #f1d517;
+    color:#333;
+}
+
+li a:active { /*Cuando da click en el mouse */
+    background-color: #609acf;
+    font-size: 120%;
+}
+
+li:last-child{
+float: right;
+background-color: rgba(106, 116, 116, 0.69);
+color:white;
+}
+
+.padre{
+    display: grid;
+    place-content: center;
+
+}
+
+.img {
+    
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
