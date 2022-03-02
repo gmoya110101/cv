@@ -2,18 +2,11 @@
     text-align: center;
 }
 
-#mifoto {
+#mifoto, #mivideo {
     height: 400px;
-    width: 319px; 
-    padding-left: 200px;
-    
-}
-
-#mivideo {
-    height: 400px;
-    width: 319px; 
-    padding-left: 250px;
-    
+    width: 300px; 
+    margin-left: 255px;
+    /*padding-left: 100px;*/
 }
 
 p {
